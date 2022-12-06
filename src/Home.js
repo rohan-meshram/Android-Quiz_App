@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <View style={styles.container}>
-      <Title />
+      <Title titleText='QuizMania'/>
         <View style={styles.bannerContainer}>
             <Image 
             source={{uri: 'https://cdni.iconscout.com/illustration/premium/thumb/giving-different-feedback-and-review-in-websites-2112230-1779230.png'}}
