@@ -83,16 +83,16 @@ const Quiz = () => {
                     </View>
                     <View style={styles.optionss}>
                         <TouchableOpacity style={styles.optionButton} onPress={() => handleSelectedOption(options[0])}>
-                            <Text style={styles.option}>{decodeURIComponent(options[0])}</Text>
+                            <Text style={styles.option}>a. {decodeURIComponent(options[0])}</Text>
                         </TouchableOpacity >
                         <TouchableOpacity style={styles.optionButton} onPress={() => handleSelectedOption(options[1])}>
-                            <Text style={styles.option}>{decodeURIComponent(options[1])}</Text>
+                            <Text style={styles.option}>b. {decodeURIComponent(options[1])}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.optionButton} onPress={() => handleSelectedOption(options[2])}>
-                            <Text style={styles.option}>{decodeURIComponent(options[2])}</Text>
+                            <Text style={styles.option}>c .{decodeURIComponent(options[2])}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.optionButton} onPress={() => handleSelectedOption(options[3])}>
-                            <Text style={styles.option}>{decodeURIComponent(options[3])}</Text>
+                            <Text style={styles.option}>d .{decodeURIComponent(options[3])}</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.bottom}>
