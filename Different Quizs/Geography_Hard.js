@@ -72,7 +72,7 @@ const Geography_Hard = () => {
 
     return (
         <View style={styles.container}>
-            {isLoading ? <View style={{ flex: 1, justifyContent: 'center', alignItem: 'center' }}>
+            {isLoading ? <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>
                 <Text style={{ fontSize: 32, fontFamily: 'JosefinSans-SemiBold', color: '#184E77' }}>Loading...</Text>
             </View> : questions && (
                 <View style={{ height: '100%' }}>
