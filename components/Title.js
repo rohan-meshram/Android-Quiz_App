@@ -4,7 +4,7 @@ import React from 'react'
 export default function Title({titleText}) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}S>{titleText}</Text>
+      <Text style={styles.title}>{titleText}</Text>
     </View>
   )
 }

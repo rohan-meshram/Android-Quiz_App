@@ -103,7 +103,7 @@ const Quiz = () => {
                             <Text style={styles.buttonText}>SKIP</Text>
                         </TouchableOpacity>}
                         {ques === 14 && <TouchableOpacity style={styles.button} onPress={handleShowResult}>
-                            <Text style={styles.buttonText}>SHOW RESULTS</Text>
+                            <Text style={styles.buttonText}>SHOW RESULT</Text>
                         </TouchableOpacity>}
 
                     </View>

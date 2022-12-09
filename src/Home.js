@@ -19,7 +19,7 @@ const Home = () => {
             resizeMode='contain'
             />
         </View>
-        <TouchableOpacity onPress={() => navigation.navigate('Quiz')}
+        <TouchableOpacity onPress={() => navigation.navigate('Categories')}
                             style={styles.button}>
             <Text style={{color: 'white', padding: 15, fontSize: 24, fontFamily: 'JosefinSans-Regular'}}>Start</Text>
         </TouchableOpacity>
